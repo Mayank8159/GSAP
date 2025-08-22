@@ -59,9 +59,9 @@ tl.from("h4", {
   stagger: 0.3
 });
 
-tl.from("h1", {
+gsap.from("h1", {
   y: -20,
   opacity: 0,
-  duration: 0.5,
-  delay: 0.2
+  delay: 0.2,
+  duration: 0.5
 });
